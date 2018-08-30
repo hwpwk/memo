@@ -1,0 +1,18 @@
+﻿【ローカルのSQLiteにCSVファイルをインポートする方法】
+
+・コマンドプロンプトを立ち上げる
+・cdコマンドで作業したいディレクトリまで移動する
+・sqlite3と入力
+・「sqlite>」と表示されるのでその後に「.import （importしたい)csvファイ名 テーブル名でインポート」と入力
+
+ここまでの参考URL:https://qiita.com/j-shimo/items/83febe1992321ba558e4
+
+【SQLiteからCSVファイルを出力する方法】
+「sqlite>」の後に下記を順に入力
+・.headers on
+・.mode tabs（タブ区切りの場合) .mode csv(カンマ区切りの場合)
+・.output [出力ファイル名] .csv
+・SELECT～とSQLを書いていく
+・.quit
+これでCSVファイルが出力される
+
