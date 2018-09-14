@@ -1,0 +1,6 @@
+﻿df['カラム名'].unique()
+# unique()は、ユニークな要素の値のリストを返す。
+# list型（Pythonの組み込み型）ではなく一次元のNumPy配列ndarray型。
+# 欠損値NaNも含まれる。
+出力：
+array(['○○', '○○',,,'○○'] ,dtype=object)
