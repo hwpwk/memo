@@ -1,0 +1,4 @@
+﻿type(a)
+pandas.core.series.Series
+# Series型でもto_csv関数が使える
+a.to_csv('test1.csv')
