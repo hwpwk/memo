@@ -1,0 +1,4 @@
+﻿# 相関係数のヒートマップ
+corrmat = df_train.corr()
+f, ax = plt.subplots(figsize=(12,9))
+sns.heatmap(corrmat, vmax=.8, square=True)
