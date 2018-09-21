@@ -1,1 +1,1 @@
-df = pd.read_csv('ƒƒO_O•H“Œ‹UFJ‹âs.csv', engine='python', encoding="utf-8")
+df = pd.read_csv('ãƒ­ã‚°_ä¸‰è±æ±äº¬UFJéŠ€è¡Œ.csv', engine='python', encoding="utf-8")
