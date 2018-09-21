@@ -1,4 +1,5 @@
-﻿# 相関係数のヒートマップ
+# 相関係数のヒートマップ
+# 参考:https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python
 corrmat = df_train.corr()
 f, ax = plt.subplots(figsize=(12,9))
 sns.heatmap(corrmat, vmax=.8, square=True)
