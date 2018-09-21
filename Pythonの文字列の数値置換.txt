@@ -1,0 +1,5 @@
+﻿# Pythonの文字列の数値置換
+# 置換の際、下記のようなreplace関数の使い方もできる
+df_test.Embarked = df_test.Embarked.replace(['C', 'S', 'Q'], [0, 1, 2])
+df_test.Sex = df_test.Sex.replace(['male', 'female'], [0, 1])
+df_test.Age = df_test.Age.replace('NaN', 0)
