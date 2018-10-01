@@ -1,0 +1,14 @@
+﻿ubuntuを起動し
+$ jupyter-notebook
+と入力しEnter
+
+Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=862216feeab912943243da27fad06c5b04a8448129729408
+
+と表示されるのでこの
+
+http://localhost:8889/?token=862216feeab912943243da27fad06c5b04a8448129729408
+
+部分をコピーしブラウザに貼り付けするとjupyter-notebookが起動する
+Ctrl+Cでjupyter-notebookを終了できる
