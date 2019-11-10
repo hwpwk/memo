@@ -1,0 +1,2 @@
+# myapp3ディレクトリをmyapp2ディレクトリの中に移動するときのUnixコマンド
+mv myapp3 myapp2
