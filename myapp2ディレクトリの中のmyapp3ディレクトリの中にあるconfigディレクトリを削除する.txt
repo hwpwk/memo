@@ -1,0 +1,3 @@
+# myapp2ディレクトリの中のmyapp3ディレクトリの中にあるconfigディレクトリを削除す
+# ただしrmdirは中身が空ではないディレクトリには使用できないことに注意
+rmdir myapp2/myapp3/config
