@@ -1,0 +1,3 @@
+﻿# カレントディレクトリの中の全ての「csvファイル」を指定ディレクトリに移動させるコマンド
+mv *csv C:\Users\Oner
+参考：https://qiita.com/ukitazume/items/4b29c6222fcd63675692
