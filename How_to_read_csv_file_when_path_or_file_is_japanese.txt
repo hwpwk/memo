@@ -1,7 +1,0 @@
-# error:Initializing from file failed ファイル名に日本語がある場合に発生する
-# 解決策:engine='python'を追加
-# 上記で読み込みはできたものの読み込んだファイルが日本語文字化け
-# encording='shift_jis'を追加
-# error:'shift_jis' codec can't decode byte 0xef in position 0: illegal multibyte sequence
-# encoding="utf-8"で何とか解決
-df = pd.read_csv('ログ_三菱東京UFJ銀行.csv', engine='python', encoding="utf-8")
